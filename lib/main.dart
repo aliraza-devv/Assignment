@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
-                height: 50,
+                height: 30,
               ),
               Row(
                 children: [
@@ -129,27 +129,27 @@ class _HomeState extends State<Home> {
                     height: 70,
                     width: 70,
                     child:
-                    Card(color: Colors.lightBlue, child: Icon(Icons.ac_unit)),
+                    Card(color: Colors.lightBlue, child: Icon(Icons.blender_rounded)),
                   ),
                   Container(
                     height: 70,
                     width: 70,
                     child: Card(
-                        color: Colors.yellowAccent,
-                        child: Icon(Icons.access_alarms_outlined)),
+                        color: Colors.greenAccent,
+                        child: Icon(Icons.add_call)),
                   ),
                   Container(
                     height: 70,
                     width: 70,
                     child: Card(
-                        color: Colors.blueAccent,
-                        child: Icon(Icons.blender_rounded)),
+                        color: Colors.lightBlue,
+                        child: Icon(Icons.add_chart)),
                   ),
                   Container(
                     height: 70,
                     width: 70,
                     child:
-                    Card(color: Colors.greenAccent, child: Icon(Icons.eco_sharp)),
+                    Card(color: Colors.greenAccent, child: Icon(Icons.access_time)),
                   ),
                 ],
               ),
@@ -181,7 +181,7 @@ class _HomeState extends State<Home> {
                 height: 120,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
-                  color: Colors.grey.shade300,
+                  color: Colors.lightBlue.shade200,
                 ),
                 child: Row(
                   children: [
@@ -189,7 +189,7 @@ class _HomeState extends State<Home> {
                       padding: const EdgeInsets.only(left: 20),
                       child: CircleAvatar(
                         radius: 50,
-                        child: Icon(Icons.brightness_low_sharp),
+                        child: Icon(Icons.add_card),
                       ),
                     ),
                     SizedBox(
@@ -240,7 +240,7 @@ class _HomeState extends State<Home> {
                 height: 120,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
-                  color: Colors.grey.shade300,
+                  color: Colors.lightBlue.shade200,
                 ),
                 child: Row(
                   children: [
@@ -248,7 +248,7 @@ class _HomeState extends State<Home> {
                       padding: const EdgeInsets.only(left: 20),
                       child: CircleAvatar(
                         radius: 50,
-                        child: Icon(Icons.brightness_low_sharp),
+                        child: Icon(Icons.add_card),
                       ),
                     ),
                     SizedBox(
@@ -299,7 +299,7 @@ class _HomeState extends State<Home> {
                 height: 120,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
-                  color: Colors.grey.shade300,
+                  color: Colors.lightBlue.shade200,
                 ),
                 child: Row(
                   children: [
@@ -307,7 +307,7 @@ class _HomeState extends State<Home> {
                       padding: const EdgeInsets.only(left: 20),
                       child: CircleAvatar(
                         radius: 50,
-                        child: Icon(Icons.brightness_low_sharp),
+                        child: Icon(Icons.add_card),
                       ),
                     ),
                     SizedBox(
@@ -358,7 +358,7 @@ class _HomeState extends State<Home> {
                 height: 120,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
-                  color: Colors.grey.shade300,
+                  color: Colors.lightBlue.shade200,
                 ),
                 child: Row(
                   children: [
@@ -366,7 +366,7 @@ class _HomeState extends State<Home> {
                       padding: const EdgeInsets.only(left: 20),
                       child: CircleAvatar(
                         radius: 50,
-                        child: Icon(Icons.brightness_low_sharp),
+                        child: Icon(Icons.add_card),
                       ),
                     ),
                     SizedBox(
